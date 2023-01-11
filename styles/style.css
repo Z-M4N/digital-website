@@ -7,6 +7,10 @@
     width: 50%;
     margin: auto;
 }
+.heder-slogan{
+
+    color: aqua;
+}
 .header-title{
     color: white;
     font-weight: 700;
@@ -26,7 +30,7 @@ h1{
     padding:15px 40px;
     border-radius:5px;
     position: relative;
-    top: 10px;
+    top: 15px;
     font-size:20px;
     font-weight:700;
 }
@@ -38,14 +42,13 @@ h1{
 }
 @media only screen and (max-width: 500px) {
 
-    body {
-    
-    background-color: lightblue;
-    text-align: center;
-    margin-right:30px;
+    .body,h1,p{
+     text-align: center;
+     margin-right:30px;
     }
     .header-btn{
         position: relative;
         top:29px;
+        left:132px;
     }
     }
