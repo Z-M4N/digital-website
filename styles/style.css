@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
 }
+
 .header-container{
     color: rgb(0, 0, 0);
     width: 50%;
@@ -17,14 +18,26 @@
     font-size: 20px;
     margin-left: 50px;
     position: relative;
-    top: 40%;
+    top: 20%;
     font-family: 'Open Sans', sans-serif;
+    
 }
 h1{
     font-size: 60px;
     font-family: 'Open Sans', sans-serif;
 }
 .header-btn{
+    background-color: aqua;
+    border:0;
+    padding:15px 40px;
+    border-radius:5px;
+    position: relative;
+    top: 15px;
+    font-size:20px;
+    font-weight:700;
+}
+
+.header-btn1{
     background-color: aqua;
     border:0;
     padding:15px 40px;
@@ -73,8 +86,24 @@ h1{
     font-size:40px;
 }
 .card-name2{
-    color: white;
- font-size: 20px;
+   color: white;
+   font-size: 20px;
+   position: relative;
+   top:10px;
+}
+.dev-title{
+    color: aqua;
+}
+.desription{
+    width:3%;
+    margin: auto;
+   
+}
+.footer-title{
+    font-size:50px;
+    position: relative;
+    text-align: center;
+    margin-bottom:-3545px;
 }
 @media only screen and (max-width: 500px) {
 
@@ -87,4 +116,32 @@ h1{
         top:29px;
         left:132px;
     }
+    .main-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+
     }
+    .card-name{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .card-1{
+        margin: 20px;
+    }
+    .header-btn{
+        position: relative;
+        left:5px;
+    }
+    .card-name2{
+        position: relative;
+        top:20px;
+        left:19px;
+    }
+    .header-btn1{
+        position: relative;
+        left:123px;
+    }
+    }
+  
