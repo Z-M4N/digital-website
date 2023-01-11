@@ -49,11 +49,13 @@ h1{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin-top:120px;
-   justify-items:center;
+    justify-items:center;
 }
 .card-1{
-    background-color: aqua;
+    background-color:#07192F;
     width: 300px;
+    height:300px;
+    border-radius:5px;
 }
 .main-container{
     font-size: 50px;
@@ -61,6 +63,18 @@ h1{
     position: relative;
     top: 600px;
     text-align: center;
+}
+.man-icon{
+    width:70px;
+    height: 70px;
+}
+ .card-name{
+    color: white;
+    font-size:40px;
+}
+.card-name2{
+    color: white;
+ font-size: 20px;
 }
 @media only screen and (max-width: 500px) {
 
