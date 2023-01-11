@@ -40,6 +40,24 @@ h1{
     background-color:white;
     border: 2px solid black;
 }
+.main-container h2{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-card{
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top:120px;
+    background-color: aqua;
+}
+.main-container{
+    font-size: 50px;
+    color: black;
+    position: relative;
+    top: 600px;
+    text-align: center;
+}
 @media only screen and (max-width: 500px) {
 
     .body,h1,p{
